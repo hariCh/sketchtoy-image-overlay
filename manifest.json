@@ -1,11 +1,11 @@
 {
 	"manifest_version": 2,
-	"name": "Sketch Toy Image Overlay",
+	"name": "Sketchtoy Image Overlay",
 	"version": "1.0.4",
 	"icons": {
-		"16":  "icon-16.png",
-		"48":  "icon-48.png",
-		"128": "icon-128.png"
+		"16":  "assets/icons/icon-16.png",
+		"48":  "assets/icons/icon-48.png",
+		"128": "assets/icons/icon-128.png"
 	},
 	"description": "Apply transparent image to Sketch Toy paper. Image will be hidden if sent.",
 	"permissions": [
