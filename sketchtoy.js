@@ -18,7 +18,7 @@ $(document).ready(function () {
 	});
 		
 	$('.toolbar')
-		.append('<br/>')
+		//.append('<br/>') // hidden overflow fix
 		.append('<input class="eimg-input" type="text" placeholder="Enter image URL"/>')
 		.append('<button class="btn eimg-load-button" title="Load Image" name="eimg-button">Load Image</button>')
 		.append('<button class="btn eimg-clear-button" title="Clear" name="eimg-button">Hide Image</button>');
