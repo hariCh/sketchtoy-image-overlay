@@ -20,19 +20,20 @@ $(document).ready(function () {
 	$('.toolbar')
 		//.append('<br/>') // hidden overflow fix
 		.append('<input class="eimg-input" type="text" placeholder="Enter image URL"/>')
-		.append('<button class="btn eimg-load-button" title="Load Image" name="eimg-button">Load Image</button>')
-		.append('<button class="btn eimg-clear-button" title="Clear" name="eimg-button">Hide Image</button>');
+		.append('<div class="btn eimg-load-button" title="Load Image" name="eimg-button">Load Image</div>')
+		.append('<div class="btn eimg-clear-button" title="Clear" name="eimg-button">Hide Image</div>');
 	
 	$('.eimg-input').css({
 		'outline': 'none',
-		'height': '22px',
+		'height': '29px',
+		'box-sizing': 'border-box',
 		'width': '200px',
 		'margin': '2px 4px',
 		'padding': '2px 6px',
-		'border': '1px solid #D26446',
-		'border-width': '1px 0px 0px 1px',
+		'border': '1px solid #e14506',
+		'border-width': '1px',
 		'border-radius': '2px',
-		'box-shadow': '2px 2px 1px #D26446'
+		'box-shadow': '1px 1px 0 #e14506,2px 2px 0 #e14506,3px 3px 0 #e14506'
 	});
 	
 	$('.eimg-load-button').click(function() {
